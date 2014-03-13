@@ -1,0 +1,20 @@
+{
+  "name": "markokeeffe/yii-image-upload",
+  "description": "An image upload, crop and auto-resize library",
+  "authors": [
+    {
+      "name": "Mark O'Keeffe",
+      "email": "mark.ok@me.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "intervention/image": "1.4.*",
+    "markokeeffe/yii-repo-rackspace": "dev-master"
+  },
+  "autoload": {
+    "psr-0": {
+      "MOK\\ImageUpload": "src/"
+    }
+  }
+}
